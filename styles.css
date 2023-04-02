@@ -1,0 +1,184 @@
+@font-face { 
+	font-family:'Haas Grot Text Web';
+	src:url('./fonts/NeueHaasGrotText-65Medium-Web.eot');
+	src:url('./fonts/NeueHaasGrotText-65Medium-Web.eot?#iefix') format('embedded-opentype'),
+		 url('https://montasserdrissi.com/code/./fonts/NeueHaasGrotText-65Medium-Web.woff2') format('woff2'),
+		 url('NeueHaasGrotText-65Medium-Web.woff') format('woff');
+	font-weight:500;
+	font-style:normal;
+	font-stretch:normal;
+  } 
+  @font-face { 
+	font-family:"Nassim Arabic Web";
+	src:url('https://montasserdrissi.com/code/./fonts/NassimArabicWeb-Sb.woff2') format('woff2'), url('NassimArabicWeb-Sb.woff') format('woff');
+	font-weight:600;
+	font-style:normal;
+  } 
+  * { 
+	  box-sizing: border-box;
+  } 
+  
+  .container-fluid { 
+	  width:  100%; 
+	  padding-right:  15px; 
+	  padding-left:  15px; 
+	  margin-right:  auto; 
+	  margin-left:  0;
+	  padding: 10px 16px 10px 16px; 
+  } 
+  
+/* Custom Cursor */
+.custom-cursor {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 10px;
+	height: 10px;
+	border-radius: 100%;
+	background-color: white;
+	opacity: 100;
+	pointer-events: none;
+	z-index: 9999;
+  }
+  
+  
+  body { 
+	  margin:  0; 
+	  font-family:  'Haas Grot Text Web', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif; 
+	  font-size:  0.85em; 
+	  font-weight:  400; 
+	  line-height:  1.22; 
+	  color:  white; 
+	  text-align:  left; 
+	  background-color:  #095318; 
+	  letter-spacing: .17px; 
+	  font-feature-settings: "liga", "kern"; 
+	  text-rendering: optimizeLegibility; 
+	  -moz-osx-font-smoothing: grayscale; 
+	  -webkit-font-smoothing: antialiased;
+  } 
+
+/* Styles for screens smaller than 768px (phones) */
+@media only screen and (max-width: 500px) {
+    body {
+        font-size: 14px;
+    }
+    .container {
+        padding: 10px;
+    }
+    .image-container img {
+        max-width: 100%;
+    }
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.image-container img {
+    display: block;
+    max-width: 40%;
+    height: auto;
+}
+
+.image-info {
+    text-align: center;
+}
+
+
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 10px;
+
+}
+
+header h1 {
+	font-size: 1.4em;
+	margin: 0;
+}
+
+.contact-btn {
+	font-family: Arial, sans-serif;
+	font-size: 1.4em;
+	font-weight: bold;
+	color: white;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.contact-link {
+	font-family: Arial, sans-serif;
+	font-size: 1.4em;
+	font-weight: bold;
+	color: white;
+	text-decoration: none;
+	cursor: pointer;
+	padding: 0;
+	border: none;
+	background-color: transparent;
+	text-decoration: underline;
+}
+
+.back-btn {
+	font-family: Arial, sans-serif;
+	font-size: 1.4em;
+	font-weight: bold;
+	color: white;
+	text-decoration: none;
+	cursor: pointer;
+	padding: 0;
+	border: none;
+	background-color: transparent;
+	text-decoration: underline;
+}
+
+.contact-link, .back-link {
+	text-decoration: none;
+}
+
+.back-link {
+	text-decoration: none;
+}
+
+.container {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+.text-triple {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+footer {
+    background-color: #095318;
+    color: white;
+    text-align: center;
+    padding: 250px;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+  footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  footer span {
+    font-weight: normal;
+  }
+  
+  .behance {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
